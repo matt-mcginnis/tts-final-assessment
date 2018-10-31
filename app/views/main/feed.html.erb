@@ -1,8 +1,10 @@
-<h1>Main Feed</h1>
+<div class="container">
+    <h1>Main Feed</h1>
 
-<% @posts.each do |post| %>
-    <div class="well">
-        <p><%= post.author %></p>
-        <p><%= post.content %></p>
-    </div>
-<% end %>
+    <% @posts.each do |post| %>
+        <div class="well">
+            <p><%= post.author %></p>
+            <p><%= post.content %></p>
+        </div>
+    <% end %>
+</div>
